@@ -7,7 +7,7 @@ window.addEventListener('load', function () {
     let videoControlsDiv = document.querySelector('.ytp-right-controls');
     let vdeDiv = document.createElement('div');
     vdeDiv.id = "vde-vdeDiv";
-    videoControlsDiv.appendChild(vdeDiv);
+    videoControlsDiv.prepend(vdeDiv);
     let videoTimeTextsDiv = document.createElement('div');
     videoTimeTextsDiv.id = "vde-videoTimeText";
 
